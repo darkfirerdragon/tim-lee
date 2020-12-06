@@ -1,0 +1,60 @@
+body{
+    text-align:center;
+ margin: 0;
+    padding-top: 400px;
+}
+#welcome{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 400px;
+    width: 100%;
+background:linear-gradient(#05f5f1 0%,black 100%); 
+display: table;
+z-index: 9;
+}
+#tim{
+    height: 200px;
+width: 300px;
+    border-radius: 200px;
+}
+.lion{
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+h1{ 
+    font-family: 'Anton', sans-serif;
+}
+#form{
+padding: 50px;
+text-align: center;
+}
+.tiger{
+height: 6px;
+width: 70px;
+background-color: deepskyblue;
+    margin: 8px auto;
+}
+.menu{
+list-style: none;
+color: black;
+position: absolute;
+top: 10px;
+right: 30px;
+cursor: pointer;
+z-index: 10;
+}
+.links { float: left; color: black; padding-top: 5px; padding-left: 9px; padding-right: 9px; padding-bottom: 5px; font-family:fantasy; font-size: 20px } .links:hover { background-color:dodgerblue; }
+html{
+scroll-behavior: smooth;
+}
+a{
+text-decoration: none;
+}
+.article:hover{
+    color:firebrick;
+}
+
